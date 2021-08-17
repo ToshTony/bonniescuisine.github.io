@@ -1,0 +1,193 @@
+body{
+    background-color: #fff;
+}
+.logo{
+    width: 200px;
+    height: 150px;
+}
+
+#section1{
+   
+}
+
+.nav-custom{
+background-color: white;
+display: flex;
+justify-content: space-around;
+}
+
+.custom-link{
+    font-size: 25px;
+    color: maroon;
+    border: 1px solid maroon;
+    border-radius: 20px;
+}
+
+.custom-link:hover{
+border-radius: 20px;
+color:white;
+background-color: maroon;
+}
+
+.alltxt{
+    color:maroon;
+}
+
+.slideshow{
+    width: 100%;
+    height: 600px;
+}
+.slideshow img{
+    width: 100%;
+    height:100%;
+  }
+  
+  .mySlides{
+    display: none;
+  }
+
+.intro-txt h4 h2{
+      
+      color: maroon;
+
+}
+
+.red-contacts-bar{
+    height:50px;
+    background-color: maroon;
+  }
+
+.red-contacts-bar p{
+    font-size: 15px;
+    color: white;
+    padding-left: 50px;
+    padding-top: 10px;
+
+}  
+.intro_div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-shadow{
+    -webkit-box-shadow: -1px -3px 5px -2px rgba(214,214,214,1);
+    -moz-box-shadow: -1px -3px 5px -2px rgba(214,214,214,1);
+    box-shadow: -1px -3px 5px -2px rgba(214,214,214,1);
+  }
+
+.intro_uno{
+    padding:10px;
+    width: 50%;
+   
+    font-size: 20px;
+}
+
+
+.intro_img{
+    height: 500px;
+    width: 50%;
+}
+.intro_img img{
+width: 100%;
+height: 100%;
+}
+
+.introscroll{
+    margin-left: 200px;
+    text-decoration: none;
+    color: maroon;
+    border: 1px solid maroon;
+    padding:10px;
+    border-radius: 25px;
+    font-size: 20px;
+    
+
+}
+
+.introscroll:hover{
+    color: white;
+    background-color: maroon;
+}
+
+.intro_div ul{
+    color: maroon;
+    margin-left: 10px;
+}
+
+.intro_div ul li{
+    margin: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.services_img{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 500px;
+    width: 50%;
+}
+.imgitem{
+    height: 250px;
+    margin:2px;
+}
+.services_img img{
+    width: 100%;
+    height: 100%;
+    }
+
+   
+.gallerydiv{
+    background-image: url(assets/img/maroonbg.jpg);
+}
+
+.gallerydiv h2{
+color: mistyrose;
+font-size: 40px;
+
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-image: url(assets/img/maroonbg.jpg);
+
+}    
+
+.gallerypics{
+    margin: 5px;
+    padding:5px;
+    height: 400px;
+}
+
+.contacts{
+    background-color: maroon;
+}
+
+.contacts h2 {
+    color: mintcream;
+    }
+
+.contact{
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contact_img{
+    height: 400px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.contact_details h4{
+    color: mintcream;
+    margin-top: 10px;
+}
+
+#form div{
+    display: inline-block;
+    margin: 5px;
+    margin-right:50px ;
+}
+
+#form div input{
+    width: 200px;
+}
